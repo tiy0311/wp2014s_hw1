@@ -28,7 +28,7 @@ body{
     padding-left : 680px;
     width : 0;
     overflow : hidden;
-    *width : 200px;
+
 }
 #SearchBar{
 	margin-top: 10px;
@@ -69,9 +69,6 @@ nav ul li{
 	margin-left:auto;
 	margin-right: auto;
 	border-radius: 20px;
-	box-shadow: insert 0 0 1px rgba(0,0,0,.8),
-				insert 0 2px 0 rgba(255,255,255,.5),
-				insert 0 -1px 0 rgba(0,0,0,.4);
 }
 .nav2{
 	float: left;
