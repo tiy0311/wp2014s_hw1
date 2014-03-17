@@ -1,0 +1,163 @@
+a{
+	color:dimgray;
+	text-decoration: none;
+}
+a:hover{
+	color:dodgerblue;
+}
+
+header{
+	background:whitesmoke;
+	width:1000px;
+}
+body{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:Microsoft YaHei,Microsoft JhengHei,Time New Roman,sans-serif;
+}
+.CS_logo li,nav ul li,nav a,.nav2_marker,.small_cs_logo,.nav_InMainContent li,.pagination ul li{
+	display:inline-block;
+}
+#logo_link {
+    display : inline-block;
+    background-image : url(logo.png);
+    height : 60px;
+    margin-top:20px;
+    margin-left: 10px;
+    padding-left : 680px;
+    width : 0;
+    overflow : hidden;
+    *width : 200px;
+}
+#SearchBar{
+	margin-top: 10px;
+	padding-bottom:10px;
+	text-align:right;
+	width:975px;
+}
+input[type=text]{
+	background:aliceblue;
+	border: 1px solid cornflowerblue;
+}
+input[type=submit]{
+    background: aliceblue;
+    color: blue;
+    border: 1px solid blue;
+}
+nav a:hover{
+	color:crimson;
+}
+nav ul{
+	margin-left:30px;
+	font-size:20px;
+	font-weight: bold;
+}
+nav ul li{
+	margin-right: 40px;
+}
+
+.container{
+	background-repeat:repeat;
+	background-image: url(http://subtlepatterns.com/patterns/tree_bark.png);
+	width:1000px;
+	padding-bottom: 3px;
+}
+
+.nivoSlider{
+	width:950px;
+	margin-left:auto;
+	margin-right: auto;
+	border-radius: 20px;
+	box-shadow: insert 0 0 1px rgba(0,0,0,.8),
+				insert 0 2px 0 rgba(255,255,255,.5),
+				insert 0 -1px 0 rgba(0,0,0,.4);
+}
+.nav2{
+	float: left;
+	width:140px;
+	min-height:345px;
+	background-position:0px 430px;
+	background-image:url(http://subtlepatterns.com/patterns/simple_dashed.png);
+	border: 1px solid #D0D0D0;
+	margin-left: 5px;
+	margin-top: 8px;
+}
+.nav2 a:hover{
+	color:paleturquoise;
+}
+.MainContent{
+	float: left;
+	width:835px;
+	min-height:300px;
+	background-position:0px 430px;
+/*	background-image: url(http://subtlepatterns.com/patterns/knitting250px.png);*/
+	background-image: url(http://subtlepatterns.com/patterns/wild_flowers.png);
+	border: 1px solid #D0D0D0;
+	margin-left: 7px;
+	margin-top: 8px;
+	padding-top: 8px;
+	padding-left: 5px;
+}
+.MainContent a:hover{
+	color:mediumvioletred;
+}
+#List ul{
+	margin-top: 7px;
+	margin-bottom: 15px;
+	margin-left: -25px;
+	list-style-type: none;
+	color:teal;
+}
+#List li{
+	margin-bottom: 4px;
+}
+#LeftTitle{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+table{
+	padding-left:6px;
+}
+
+.date{
+	width:100px;
+	margin-right: 10px;
+	padding-bottom: 6px;
+}
+.information{
+	width:590px;
+	margin-left: 5px;
+	padding-bottom: 6px;
+}
+
+.pagination{
+	margin-left: 200px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.pagination li{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 9px;
+	padding-right: 9px;
+	margin-left: -3px;
+	border:1px dotted gray;
+}
+.pagination a:hover{
+	color:black;
+}
+footer{
+	background-image:url(http://subtlepatterns.com/patterns/escheresque_ste.png);
+	display:inline-block;
+	text-align:right;
+	width:980px;
+	padding-right:20px;
+	margin-top: 5px;
+	color:darkgray;
+}
